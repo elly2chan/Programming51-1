@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Stack<T> {
+public class Stack1<T> {
     private Queue<T> firstQueue = new LinkedList<T>();
 
     public T pop() {
